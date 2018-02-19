@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ubuntu.activity_intent.Activity_intent1">
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="@string/text_name"
+        android:inputType="textCapWords"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit_text_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="Class"
+        android:inputType="number"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="SAVE >" />
+
+</LinearLayout>

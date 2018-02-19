@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.example.ubuntu.trial_project.Main2Activity">
+
+    <Button
+        android:id="@+id/button_detail_1"
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:layout_height="0dp"
+        android:background="@color/colorAccent"/>
+    <Button
+        android:id="@+id/button_detail_2"
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"/>
+    <Button
+        android:id="@+id/button_detail_3"
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimaryDark"/>
+    <Button
+        android:id="@+id/button_detail_4"
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:layout_height="0dp"
+        android:background="@color/colorAccent"/>
+    <Button
+        android:id="@+id/button_detail_5"
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:layout_height="0dp"/>
+
+</LinearLayout>
