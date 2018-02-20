@@ -16,7 +16,7 @@ public class MainActivity34 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main34);
 
-        final EditText editText1 = findViewById(R.id.textEdit_1);
+        final EditText editText = findViewById(R.id.textEdit_1);
         final EditText editText2 = findViewById(R.id.textEdit_2);
 
 
@@ -42,17 +42,17 @@ public class MainActivity34 extends AppCompatActivity {
             }
         });*/
 
-        editText1.addTextChangedListener(new TextWatcher() {
+        editText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
                 if(count>=12)
-                    editText1.setText(editText1.getText().toString()+"\b");
+                    editText.setText(editText.getText().toString()+"\b");
             }
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 editText2.setText(String.valueOf(count));
-                if (editText1.getText().toString().trim().length() > 10) {
+                if (editText.getText().toString().trim().length() > 10) {
                     button_1.setEnabled(true);
                 }
                 else
